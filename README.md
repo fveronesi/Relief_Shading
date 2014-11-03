@@ -2,6 +2,12 @@ Relief_Shading
 ==============
 
 ArcGIS toolbox to automatically create relief shading implementing with two light sources.
+
+<strong>Instructions</strong>:
+It was successfully tested on ArcGIS 10.1 SP1.
+To install the tool, first save the right version on your PC, then open ArcGIS and the ArcToolbox. Here click on the title at the top, “ArcToolbox”, with the right mouse button and select “Add Toolbox”. A selection window will appear where you can navigate where you saved the sine wave toolbox. Click once on the file and then on “Open”, do not double-click on the file.
+Each tool creates several temporary intermediate files that are needed to perform the shading but are deleted when the process is terminated. These files are saved locally in a temporary folder. Before using the tool the user needs to be sure to have a folder named temp (C:\temp) in his local hard drive. If there is not, it should be created.
+
 This software is a complement to the following article.
 
 <strong>Title</strong>:
